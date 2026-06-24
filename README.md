@@ -1,3 +1,5 @@
+Hi! I'm Sneha, and I built this lightweight dashboard as a rapid prototype for my FSSAI internship submission. My goal was to create a clean, working interface that functions completely offline by saving data directly to the browser.
+ 
  Key Features
  Interactive Dashboard: Real-time tracking of registered vendors, completed inspections, and active consumer complaints.
 
