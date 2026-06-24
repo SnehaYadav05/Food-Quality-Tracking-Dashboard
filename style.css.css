@@ -1,0 +1,65 @@
+/* style.css - Sneha SP FSSAI Portal Styles */
+
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: #0d6efd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+    cursor: pointer;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    text-align: center;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.bg-vendor {
+    background: linear-gradient(135deg, #17a2b8, #117a8b);
+}
+
+.bg-inspection {
+    background: linear-gradient(135deg, #28a745, #1e7e34);
+}
+
+.bg-complaint {
+    background: linear-gradient(135deg, #dc3545, #bd2130);
+}
+
+.section-view {
+    display: none;
+}
+
+.active-view {
+    display: block;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
